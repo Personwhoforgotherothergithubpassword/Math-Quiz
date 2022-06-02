@@ -1,0 +1,34 @@
+body {
+  background-image: url(./images/math.jpeg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  height: 100vh;
+}
+#container {
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.container {
+  margin-top: 1rem;
+}
+
+.subtext {
+  font-size: medium;
+}
+
+#container {
+  background-color: beige;
+}
+
+.input {
+  width: 1000px;
+}
+
+#log-in {
+  width: 500px;
+  height: 30px;
+  color: white;
+  background-color: #318ce7;
+}
