@@ -32,3 +32,18 @@ body {
   color: white;
   background-color: #318ce7;
 }
+
+#output {
+  background: lightblue;
+  border-radius: 10px;
+  border-top: 10px;
+  border-top: blue;
+  padding: 10px;
+  float: none;
+  text-align: left;
+}
+
+#word {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

@@ -16,37 +16,63 @@
     <script src="quiz_game_login.js"></script>
   </head>
   <body>
+    <h4 id="player1_name"></h4>
+    <span id="player1_score"></span>
+    <br />
+    <h4 id="player2_name"></h4>
+    <span id="player2_score"></span>
     <div class="container">
-      <div class="row justify-content-center">
+      <center>
         <h2>The Math Quiz!</h2>
-      </div>
-      <div class="row justify-content-center">
-        <div id="container" class="col-6">
-          <form>
-            <div class="form-group">
-              <h5>Player One Login</h5>
-              <label class="subtext">Username:</label>
-              <input class="form-control" placeholder=" Player One Name" />
+        <h3 id="asker"></h3>
+        <br />
+        <h3 id="answerer"></h3>
+        <div id="output" class="col-lg-6"></div>
+
+        <div class="row justify-content-center"></div>
+        <div class="row justify-content-center">
+          <div id="container" class="col-6">
+            <form>
+              <div class="form-group">
+                <h5>Player One Login</h5>
+                <label class="subtext">Username:</label>
+                <input class="form-control" placeholder=" Player One Name" />
+                <br />
+              </div>
+              <div class="form-group">
+                <h5>Player Two Login</h5>
+                <label class="subtext">Username:</label>
+                <input class="form-control" placeholder="Player Two Name" />
+              </div>
               <br />
-            </div>
-            <div class="form-group">
-              <h5>Player Two Login</h5>
-              <label class="subtext">Username:</label>
-              <input class="form-control" placeholder="Player Two Name" />
-            </div>
-            <br />
-            <div class="form-group">
-              <button
-                type="submit"
-                class="btn btn-primary form-control"
-                onclick="adduser()"
-              >
-                Log in
-              </button>
-            </div>
-          </form>
+              <div class="form-group">
+                <button
+                  type="submit"
+                  class="btn btn-primary form-control"
+                  onclick="adduser()"
+                >
+                  Log in
+                </button>
+              </div>
+            </form>
+          </div>
+          <input
+            type="text"
+            id="word"
+            class="form-control"
+            placeholder="Number 1"
+          />
+          <input
+            type="text"
+            id="word2"
+            class="form-control"
+            placeholder="Number 2"
+          />
+
+          <button onclick="send()"></button>
         </div>
-      </div>
+      </center>
     </div>
+    <script src="quiz_game_page.js"></script>
   </body>
 </html>
