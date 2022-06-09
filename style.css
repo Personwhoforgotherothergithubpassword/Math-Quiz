@@ -47,3 +47,12 @@ body {
   margin-bottom: 20px;
   margin-top: 20px;
 }
+
+#word2 {
+  margin-bottom: 20px;
+}
+
+#send {
+  background-color: lightgreen;
+  border-color: beige;
+}
